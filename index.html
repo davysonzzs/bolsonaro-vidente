@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adivinhe o numero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="texto-incio">
+    <h1 class="junto">adivinhe o numero do bolsonaro!</h1>
+    <p>bolsonaro esta pensando num numero <br>
+        e vc tem q adivinhar!
+    </p>
+    </section>
+    <button id="btnin" onclick="gerar()">começar</button>
+    <div id="resul">
+
+    </div>
+    <section id="resposta" style="opacity: 0;">
+        <input type="number" name="rs" id="chute">
+        <button id="btchu" onclick="verificar()">chutar</button>
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
